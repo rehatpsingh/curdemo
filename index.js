@@ -6,10 +6,7 @@ const student = require("./models/studentModel");
 
 //MongoDB Connection String
 
-const mongoCS =
-
-  "mongodb+srv://rehatpreet2101:20031975Reh@fullstackclusterrehatpr.1qogxje.mongodb.net/";
-
+const mongoCS = "Your mongo DB Connection string!!!!";
 try {
 
   const connection = mongoose.connect(mongoCS);
