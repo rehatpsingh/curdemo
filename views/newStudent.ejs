@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <style>
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button.cancel {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <th colspan="2">User Registration Form</th>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="txtFirstName" id="txtFirstName" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="txtLastName" id="txtLastName" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="txtEmail" id="txtEmail" required></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="tel" name="txtPhoneNo" id="txtPhoneNo" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="button" class="cancel">Cancel</button>
+                    <button type="submit">Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
